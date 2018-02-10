@@ -40,11 +40,6 @@
 	
 	
 	
-
-	
-	
-	
-	
 	<!-- spring mvc servlet -->
 	<servlet>
 		<description>spring mvc servlet</description>
@@ -59,7 +54,7 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>springMvc</servlet-name>
-		<url-pattern>/</url-pattern>
+		<url-pattern>*.do</url-pattern>
 	</servlet-mapping>
 
 	<welcome-file-list>
